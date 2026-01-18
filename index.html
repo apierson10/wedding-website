@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simona & Andrew — May 24, 2026</title>
+  <meta name="description" content="Simona & Andrew Wedding Website — May 24, 2026 — Hotel Du Pont, Wilmington, Delaware" />
+
+  <!-- Elegant fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Sticky top bar -->
+  <div class="topbar">
+    <a class="brand" href="#top" aria-label="Back to top">S<span class="dot">•</span>A</a>
+
+    <nav class="nav">
+      <a href="#details">Details</a>
+      <a href="#maps">Maps</a>
+      <a href="#stay">Stay</a>
+      <a href="#story">Our Story</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#photos">Photos</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <!-- KEEP: top-right RSVP -->
+    <a class="btn btn-gold" href="YOUR_RSVP_URL_HERE" target="_blank" rel="noopener">RSVP</a>
+  </div>
+
+  <!-- HERO (cover background) -->
+  <header class="heroFill" id="top" aria-label="Hero">
+    <div class="heroFill__content">
+      <!-- Title block -->
+      <div class="heroFill__titleblock">
+        <h1>Simona &amp; Andrew</h1>
+        <p>Wedding — May 24, 2026</p>
+        <p>Hotel Du Pont • Wilmington, Delaware</p>
+      </div>
+
+      <!-- Bottom countdown + RSVP (KEEP) -->
+      <div class="heroFill__bottom" aria-label="Countdown and RSVP">
+        <div class="countdown" aria-label="Countdown to wedding day">
+          <div class="cd">
+            <span class="num" id="cdDays">—</span>
+            <span class="lab">Days</span>
+          </div>
+          <div class="cd">
+            <span class="num" id="cdHours">—</span>
+            <span class="lab">Hours</span>
+          </div>
+          <div class="cd">
+            <span class="num" id="cdMins">—</span>
+            <span class="lab">Minutes</span>
+          </div>
+          <div class="cd">
+            <span class="num" id="cdSecs">—</span>
+            <span class="lab">Seconds</span>
+          </div>
+        </div>
+
+        <a class="btn btn-gold btn-xl"
+           href="YOUR_RSVP_URL_HERE"
+           target="_blank"
+           rel="noopener">
+          RSVP Now
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" role="main">
+    <!-- Elegant strip -->
+    <section class="strip" id="details" aria-label="Wedding details">
+      <div class="strip__inner">
+        <div class="strip__item">
+          <div class="strip__label">Date</div>
+          <div class="strip__value">Sunday, May 24, 2026</div>
+        </div>
+        <div class="strip__item">
+          <div class="strip__label">Venue</div>
+          <div class="strip__value">Hotel Du Pont</div>
+        </div>
+        <div class="strip__item">
+          <div class="strip__label">Location</div>
+          <div class="strip__value">Wilmington, Delaware</div>
+        </div>
+        <div class="strip__item">
+          <div class="strip__label">Dress Code</div>
+          <div class="strip__value">Formal Attire (long dresses; suit &amp; tie / bow tie)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome -->
+    <section class="section section--airy" aria-label="Welcome">
+      <div class="section__head">
+        <p class="eyebrow">Welcome</p>
+        <h2 class="h2">We can’t wait to celebrate with you.</h2>
+        <p class="subcopy">
+          This site will be updated as we finalize hotel block details, travel guidance, and weekend plans.
+        </p>
+      </div>
+
+      <div class="grid two-col">
+        <div class="accent-block">
+          <h3 class="h3">Ceremony &amp; Reception</h3>
+          <p class="copy">
+            Ceremony: Holy Trinity Greek Orthodox Cathedral • Wilmington, DE<br />
+            Reception: Hotel Du Pont • Wilmington, Delaware
+          </p>
+        </div>
+
+        <div class="accent-block">
+          <h3 class="h3">Travel Snapshot</h3>
+          <ul class="cleanlist">
+            <li><span>Airports:</span> PHL (Philadelphia), ILG (Wilmington)</li>
+            <li><span>Parking:</span> See the Maps section below</li>
+            <li><span>Hotel block:</span> Details coming soon</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAPS -->
+    <section class="section" id="maps" aria-label="Maps and parking">
+      <div class="section__head">
+        <p class="eyebrow">Maps</p>
+        <h2 class="h2">Venue &amp; Ceremony Locations</h2>
+        <p class="subcopy">Tap a map for directions.</p>
+      </div>
+
+      <div class="grid two-col">
+        <div class="mapcard">
+          <h3 class="h3">Reception — Hotel Du Pont</h3>
+          <p class="copy muted">42 W 11th St, Wilmington, DE 19801</p>
+          <div class="mapframe">
+            <iframe
+              title="Hotel Du Pont map"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Hotel%20Du%20Pont%20Wilmington%20DE&output=embed">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="mapcard">
+          <h3 class="h3">Ceremony — Holy Trinity Greek Orthodox Cathedral</h3>
+          <p class="copy muted">Wilmington, Delaware</p>
+          <div class="mapframe">
+            <iframe
+              title="Holy Trinity Greek Orthodox Cathedral Wilmington DE map"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Holy%20Trinity%20Greek%20Orthodox%20Cathedral%20Wilmington%20DE&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="parking accent-block">
+        <h3 class="h3">Parking</h3>
+        <p class="copy">Parking instructions will be added closer to the date.</p>
+        <p class="copy muted">Space here for alternative garages / lots / rideshare tips.</p>
+      </div>
+    </section>
+
+    <!-- STAY -->
+    <section class="section" id="stay" aria-label="Hotel block and lodging">
+      <div class="section__head">
+        <p class="eyebrow">Stay</p>
+        <h2 class="h2">Hotel Block &amp; Nearby Options</h2>
+        <p class="subcopy">We’ll post the official hotel block link when it’s available.</p>
+      </div>
+
+      <div class="grid two-col">
+        <div class="accent-block">
+          <h3 class="h3">Hotel Du Pont Block</h3>
+          <p class="copy muted">To be added (block code + dates + link).</p>
+          <div class="actions">
+            <a class="btn btn-gold btn-xl" href="YOUR_HOTEL_BLOCK_URL_HERE" target="_blank" rel="noopener">
+              Book Du Pont Block
+            </a>
+            <a class="btn btn-ghostDark btn-xl" href="YOUR_NEARBY_HOTELS_URL_HERE" target="_blank" rel="noopener">
+              Nearby Hotels (Budget)
+            </a>
+          </div>
+        </div>
+
+        <div class="accent-block">
+          <h3 class="h3">Transportation</h3>
+          <ul class="cleanlist">
+            <li><span>Parking:</span> See Maps section</li>
+            <li><span>Rideshare:</span> Details to follow</li>
+            <li><span>Walking:</span> Du Pont is central downtown</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="section" id="story" aria-label="Our story">
+      <div class="section__head">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="h2">A few words (for now).</h2>
+        <p class="subcopy">Keep it short and sweet—4–8 sentences reads best on phones.</p>
+      </div>
+
+      <div class="grid two-col align">
+        <div class="accent-block">
+          <p class="copy">
+            Replace this with your story: how you met, the proposal, and what you’re most excited for on May 24.
+          </p>
+        </div>
+
+        <div class="frame">
+          <img src="photos/couple.jpg" alt="Simona and Andrew" />
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery" aria-label="Gallery">
+      <div class="section__head">
+        <p class="eyebrow">Gallery</p>
+        <h2 class="h2">Wilmington weekend inspiration.</h2>
+        <p class="subcopy">Swap these images anytime—this section is meant to be visual and elegant.</p>
+      </div>
+
+      <div class="gallery">
+        <figure class="shot">
+          <img src="photos/dupont.jpg" alt="Hotel Du Pont" />
+          <figcaption>Hotel Du Pont</figcaption>
+        </figure>
+
+        <figure class="shot">
+          <img src="photos/nemours.jpg" alt="Nemours Estate & Gardens" />
+          <figcaption>Nemours Estate &amp; Gardens</figcaption>
+        </figure>
+
+        <figure class="shot shot--placeholder">
+          <div class="placeholder">
+            <div class="placeholder__title">More photos coming</div>
+            <div class="placeholder__sub">To be added at a later date.</div>
+          </div>
+          <figcaption>Additional locations &amp; details</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="section" id="photos" aria-label="Wedding photos">
+      <div class="section__head">
+        <p class="eyebrow">Wedding Photos</p>
+        <h2 class="h2">Gallery from the wedding day</h2>
+        <p class="subcopy">To be added at a later date.</p>
+      </div>
+
+      <div class="accent-block">
+        <p class="copy muted">We’ll add a link to the full wedding gallery here after the event.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-label="Frequently asked questions">
+      <div class="section__head">
+        <p class="eyebrow">FAQ</p>
+        <h2 class="h2">A few helpful answers.</h2>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary>What’s the dress code?</summary>
+          <p class="muted">Formal Attire: long dresses/gowns and suits with a tie or bow tie.</p>
+        </details>
+        <details>
+          <summary>Can I bring a plus-one?</summary>
+          <p class="muted">If your invitation includes a guest, you’ll see it when you RSVP.</p>
+        </details>
+        <details>
+          <summary>Are kids invited?</summary>
+          <p class="muted">We’ll clarify on the invitation and here.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
